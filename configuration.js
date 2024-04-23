@@ -1,7 +1,7 @@
 const mode = 1;
 
 const host_local = "http://localhost:8080";
-const host_remote = "https://test3-backend.onrender.com";
+const host_remote = "https://test3-backend-akinbojo.onrender.com";
 
 function getHost() {
     return (mode == 0) ? host_local : host_remote;
